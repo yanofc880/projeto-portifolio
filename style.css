@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b1120;
+    color: #eaf2ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 45px 20px;
+    border-bottom: 2px solid #38bdf8;
+    background-color: #111c33;
+}
+
+header h1 {
+    margin: 0 0 12px 0;
+    padding: 0;
+    font-size: 42px;
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+main {
+    width: 90%;
+    margin: 35px auto;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    margin: 0 0 25px 0;
+    padding: 30px;
+    border: 1px solid #263858;
+    background-color: #111c33;
+}
+
+section h2 {
+    margin: 0 0 18px 0;
+    padding: 0;
+    font-size: 27px;
+}
+
+section p {
+    margin: 12px auto;
+    padding: 0;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.destaque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.destaque img {
+    width: 280px;
+    height: 480px;
+    border: 3px solid #38bdf8;
+}
+
+.destaque p {
+    width: 420px;
+}
+
+.info,
+.tecnologias,
+.ferramentas,
+.contato,
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 220px;
+    height: 105px;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #38bdf8;
+    background-color: #17243d;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.github {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.github img {
+    width: 650px;
+    height: 300px;
+    border: 3px solid #38bdf8;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 190px;
+    height: 52px;
+    margin: 0;
+    padding: 12px;
+    border: 2px solid #38bdf8;
+    background-color: #17243d;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.botao:hover {
+    background-color: #1e5f91;
+}
+
+.texto {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+.texto p {
+    margin: 0 0 18px 0;
+    padding: 0;
+}
+
+footer {
+    width: 100%;
+    margin: 40px 0 0 0;
+    padding: 25px 15px;
+    border-top: 2px solid #38bdf8;
+    background-color: #080d18;
+    color: #b9c7dc;
+    font-size: 14px;
+}
